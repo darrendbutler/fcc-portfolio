@@ -11,9 +11,11 @@ body {
 
 .intro {
   top: 0;
-  background: #e0ebe8;
+  background-image: url("https://i.gifer.com/9lZ7.gif");
+  background-color: #e0ebe8;  
   min-height: 55vh;
-  padding-top: 45vh;
+  padding-top: 25vh;
+  padding-bottom: 25vh;
   /*   line-height: 100vh; */
   /*   width:100%;
   height:96vh;
@@ -22,6 +24,14 @@ border:solid; */
 
 .intro p {
   color: green;
+}
+
+.intro img {
+  border-radius: 8px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 45vh;
 }
 
 nav ul {
@@ -86,15 +96,16 @@ nav ul li a:hover {
   width: 200px;
   height: 30px;
   margin: 20px auto 90px;
-  background: #e0ebe8;
+   background: #e0ebe8;
   color: #008080;
   font-weight: bold;
   font-size: 1em;
   border: 2px solid #90C695;
   border-radius: 4px;
   cursor: pointer;
-  padding-top: 10px;
+  padding-top:10px;
 }
+
 
 .show-all:hover {
   background: #E4F1FE;
@@ -105,15 +116,14 @@ nav ul li a:hover {
   nav ul {
     text-align: center;
   }
-
   nav ul li {
     margin: 20px;
   }
-
   .project {
     margin: 40px 0;
   }
 }
+
 .contact {
   /*   height:800px; */
   /*   min-height:800px; */
