@@ -11,7 +11,11 @@ body {
 
 .intro {
   top: 0;
-  background-image: url("https://i.gifer.com/9lZ7.gif");
+  background: url(https://media.giphy.com/media/L8K62iTDkzGX6/giphy.gif) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
   background-color: #e0ebe8;  
   min-height: 55vh;
   padding-top: 25vh;
@@ -32,6 +36,14 @@ border:solid; */
   margin-left: auto;
   margin-right: auto;
   width: 45vh;
+}
+
+#greeting {
+  background-color:rgba(255, 255, 255, 0.904);;
+  display: inline-block;
+  padding: 1vh;
+  box-shadow: 10px 5px 5px gray; 
+  border-radius: 8px;;
 }
 
 nav ul {
